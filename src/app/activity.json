@@ -3,7 +3,7 @@
     {
         "name" : "Last Wish",
         "players": "6",
-        "diffculty": "Moderate",
+        "difficulty": "Moderate",
         "bosses": [
             "Kalli",
             "Shuro Chi",
@@ -38,8 +38,8 @@
     {
         "name" : "Garden of Salvation",
         "players": "6",
-        "diffculty": "Moderate/",
-        "encounters": [
+        "diffculty": "Moderate/Hard",
+        "bosses": [
             "Kalli",
             "Shuro Chi",
             "Morgeth",
