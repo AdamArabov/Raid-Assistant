@@ -34,32 +34,6 @@
         ],
 
         "armor": "Great Hunt Set"
-    },
-    {
-        "name" : "Garden of Salvation",
-        "players": "6",
-        "diffculty": "Moderate/Hard",
-        "bosses": [
-            "Kalli",
-            "Shuro Chi",
-            "Morgeth",
-            "Vault",
-            "Riven",
-            "Queenswalk Gauntlet"
-        ],
-        "weapons" : [
-            "Age-Old Bond",
-            "Apex Predator",
-            "Chattering Bone",
-            "Nation of Beasts",
-            "One Thousand Voices",
-            "Techeun Force",
-            "The Supremacy",
-            "Transfiguration",
-            "Tyranny of Heaven"
-        ],
-
-        "armor": "Great Hunt Set"
     }
    ]
 }
