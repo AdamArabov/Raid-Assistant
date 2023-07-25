@@ -3,11 +3,15 @@ import raid from "../ls.json"
 function Name ({
     name,
     players,
-    difficulty
+    difficulty,
+    bosses,
+    weapons
     }:{
     name: string;
     players: string;
     difficulty: string;
+    bosses: string;
+    weapons: string;
    
   }){
     return(
@@ -15,8 +19,10 @@ function Name ({
       <h1 className='font-semibold text-lg '>{name}</h1>
       <h1 className='font-semibold text-lg '>{players}</h1>
       <h1 className='font-semibold text-lg '>{difficulty}</h1>
+      <h1 className='font-semibold text-lg '>{bosses}</h1>
+      <h1 className='font-semibold text-lg '>{weapons}</h1>
       </div>
-  
+
     )
   }
 export default function Ls() {
