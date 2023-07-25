@@ -4,23 +4,20 @@ function Name ({
     name,
     players,
     difficulty,
-    bosses,
-    weapons
+  
     }:{
     name: string;
     players: string;
     difficulty: string;
-    bosses: string;
-    weapons: string;
+
    
   }){
     return(
       <div className='flex flex-col w-full text-center  '>
       <h1 className='font-semibold text-lg '>{name}</h1>
-      <h1 className='font-semibold text-lg '>{players}</h1>
-      <h1 className='font-semibold text-lg '>{difficulty}</h1>
-      <h1 className='font-semibold text-lg '>{bosses}</h1>
-      <h1 className='font-semibold text-lg '>{weapons}</h1>
+      <h2 className='font-semibold text-lg '>Recommended Fireteam: {players}</h2>
+      <h3 className='font-semibold text-lg '>{difficulty}</h3>
+
       </div>
 
     )
